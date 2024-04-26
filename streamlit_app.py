@@ -1,11 +1,10 @@
-import nltk
 import streamlit as st
 from PIL import Image
 import pickle
 import pandas as pd
 import numpy as np
 import string
-
+import nltk  # Optional explicit import
 from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
@@ -14,9 +13,9 @@ import pandas as pd
 ps = PorterStemmer()
 from xgboost import XGBClassifier
 
-nltk.download('punkt')
-nltk.download('stopwords')
-
+# Download nltk resources (one-time execution; comment out if already downloaded)
+# nltk.download('punkt')  # Download sentence tokenizer
+# nltk.download('stopwords')  # Download stopwords
 
 def transform_text(text):
     text = text.lower()
