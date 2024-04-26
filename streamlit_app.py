@@ -1,10 +1,11 @@
+import nltk
 import streamlit as st
 from PIL import Image
 import pickle
 import pandas as pd
 import numpy as np
 import string
-import nltk
+
 from nltk.corpus import stopwords
 import string
 from nltk.stem.porter import PorterStemmer
