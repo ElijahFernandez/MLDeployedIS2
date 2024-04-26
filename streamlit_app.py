@@ -83,7 +83,7 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not Spam")
-    c1, c2, c3 = st.columns(3)
+    c1, c2 = st.columns(2)
 with c1:
     st.info('**GitHub:[@ElijahFernandez](https://github.com/ElijahFernandez)**', icon="🧠")
 with c2:
