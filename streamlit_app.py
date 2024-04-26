@@ -84,7 +84,7 @@ if st.button('Predict'):
     else:
         st.header("Not Spam")
     c1, c2 = st.columns(2)
-with c1:
-    st.info('**GitHub:[@ElijahFernandez](https://github.com/ElijahFernandez)**', icon="🧠")
-with c2:
-    st.info('**Kaggle:[@fjoseelijah](https://www.kaggle.com/fjoseelijah)**', icon="💻")
+    with c1:
+        st.info('**GitHub:[@ElijahFernandez](https://github.com/ElijahFernandez)**', icon="🧠")
+    with c2:
+        st.info('**Kaggle:[@fjoseelijah](https://www.kaggle.com/fjoseelijah)**', icon="💻")
